@@ -1,0 +1,15 @@
+Passo 1: Abrir Anaconda prompt e executar os comandos abaixo (1 por vez). Espere finalizar o anterior, para executar o próximo
+
+	1. pip install jupyter_contrib_nbextensions
+	2. pip install jupyter_nbextensions_configurator
+	3. jupyter contrib nbextension install --user 
+	4. jupyter nbextensions_configurator enable --user
+
+Passo 2: Fechar e Abrir jupyter notebook
+
+	1. Verifique se a aba nbextensions foi adicionada
+	2. Clique sobre a aba nbextensions
+	3. Desmarque a opção "Disable configuration for nbextensions without explicit compatibility", caso esteja marcada
+	4. Localize e marque a opção "Hinterland", caso não esteja marcada
+
+Passo 3: Abra um novo notebook e verifique se funcionalidade está ok.
